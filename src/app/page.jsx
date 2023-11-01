@@ -1,5 +1,6 @@
 import HomeHeader from '@/components/HomeHeader'
 import HomeSearch from '@/components/HomeSearch';
+import Footer from '@/components/Footer';
 import Image from "next/image";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       />
 
       <HomeSearch />
+      <Footer />
     </div>
     </>
   )
