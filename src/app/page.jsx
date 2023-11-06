@@ -1,6 +1,5 @@
 import HomeHeader from '@/components/HomeHeader'
 import HomeSearch from '@/components/HomeSearch';
-import Footer from '@/components/Footer';
 import Image from "next/image";
 
 export default function Home() {
@@ -11,7 +10,7 @@ export default function Home() {
 
     {/* body */}
 
-    <div className=' flex flex-col items-center mt-24'>
+    <div className='flex flex-col items-center mt-24'>
       <Image 
       width="300"
       height="100"
